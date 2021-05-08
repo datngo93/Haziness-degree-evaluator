@@ -9,19 +9,19 @@ In the "data" folder, we provided the ".mat" files that contain the FADE, DF, an
 
 To reproduce the results on hazy/haze-free image classification on new data, please run the script "acc_test.m". The results would be identical those in the following table.
 
-**Class** | **FADE** | **DF** | **HDE**
---- | --- | --- | ---
-*DV* | 0.9866 | 0.2968 | 0.8811
-*P* | | 1020 |
-*TP* | 863 | 242 | 929
-*TPR* | 84.6% | 23.7% | 91.1%
-*FN* | 157 | 778 | 91
-*FNR* | 15.4% | 76.3% | 8.9%
-*N* | | 552 |
-*TN* | 446 | 508 | 507
-*TNR* | 80.8% | 92.0% | 91.1%
-*FP* | 106 | 44 | 45
-*FPR* | 19.2% | 8.0% | 8.1%
-*ACC* | 83.3% | 47.7% | 91.4%
+| **Class** | **FADE** | **DF** | **HDE** |
+| --- | :---: | :---: | :---: |
+| *DV* | 0.9866 | 0.2968 | 0.8811 |
+| *P* | 1020 |
+| *TP* | 863 | 242 | 929 |
+| *TPR* | 84.6% | 23.7% | 91.1% |
+| *FN* | 157 | 778 | 91 |
+| *FNR* | 15.4% | 76.3% | 8.9% |
+| *N* | 552 |
+| *TN* | 446 | 508 | 507 |
+| *TNR* | 80.8% | 92.0% | 91.1% |
+| *FP* | 106 | 44 | 45 |
+| *FPR* | 19.2% | 8.0% | 8.1% |
+| *ACC* | 83.3% | 47.7% | 91.4% |
 
 Furthermore, the run-time comparison results can also be reproduced by invoking the script "runtime_meaaure.m" on test images in the "test-images-for-runtime-measure" folder. For executing the script, it is required to specify the path to the FADE's source code, which can be obtained from [http://live.ece.utexas.edu/research/fog/index.html](http://live.ece.utexas.edu/research/fog/index.html). Also, please specify the path to test images on line 21.
