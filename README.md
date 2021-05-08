@@ -10,6 +10,7 @@ In the "data" folder, we provided the ".mat" files that contain the FADE, DF, an
 To reproduce the results on hazy/haze-free image classification on new data, please run the script "acc_test.m". The results would be identical those in the following table.
 
 **Class** | **FADE** | **DF** | **HDE**
+--- | --- | --- | ---
 *DV* | 0.9866 | 0.2968 | 0.8811
 *P* | | 1020 |
 *TP* | 863 | 242 | 929
