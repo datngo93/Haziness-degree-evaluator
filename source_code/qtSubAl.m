@@ -1,10 +1,10 @@
 %%=========================================================================
-% Copyright © 2018, SoC Design Lab., Dong-A University. All Right Reserved.
+% Copyright Â© 2018, SoC Design Lab., Dong-A University. All Right Reserved.
 %==========================================================================
-% • Date       : 2018/08/04
-% • Author     : Dat Ngo
-% • Affiliation: SoC Design Lab. - Dong-A University
-% • Design     : Quadtree-subdivision algorithm for finding region
+% â€¢ Date       : 2018/08/04
+% â€¢ Author     : Dat Ngo
+% â€¢ Affiliation: SoC Design Lab. - Dong-A University
+% â€¢ Design     : Quadtree-subdivision algorithm for finding region
 %                containing atmospheric light candidate
 %==========================================================================
 
@@ -51,7 +51,7 @@ end
 
 inImgGray = rgb2gray(inImg);
 % inImgGray = minFilt2(inImgGray,sv,slidingOp);
-inImgGray = minFilt2_v2(inImgGray,sv);
+inImgGray = minFilt2_opt(inImgGray,sv);
 
 hsub = h;
 wsub = w;
